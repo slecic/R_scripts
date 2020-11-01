@@ -207,7 +207,7 @@ colnames(monall)[-1:-5]=paste(positions$genotype,sep = "_")
 head(monall)
 
 
-#png("/Volumes/Temp1/shengkai/behavior_assay/spontaneous_locomotion.png",width = 24,height = 12,pointsize = 10,units = "cm",res=600)
+#png("/Volumes/Temp1/slecic/behavior_assay/spontaneous_locomotion.png",width = 24,height = 12,pointsize = 10,units = "cm",res=600)
 #par(mfrow=c(1,2))
 plot(NA,NA, ylim=c(0,7),xlim=c(0,length(monall[,1])), xaxt="n", ylab="Passes/10min",xlab="Time (hr)",type="n",axes=F, cex.lab=1.6)
 #axis(1, 1:length(monall[,1]))
