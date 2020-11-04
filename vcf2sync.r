@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-###Sonja_Lecic_08_2018
+###Author:Sonja_Lecic_08_2018
 
 require(sys)
 require(data.table)
