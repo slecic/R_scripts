@@ -1,6 +1,6 @@
 ###Sopntaneous_locomotion_assay
 ###three_ace_haplotypes
-###Sonja_Lecic_04_2019
+###Author:Sonja_Lecic_04_2019
 
 ###### CHECK THE FIRST SEVEN HOURS #####
 
