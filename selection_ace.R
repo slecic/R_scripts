@@ -1,6 +1,6 @@
 
 ## Selection coeeficients of the Ace region
-## Sonja_Lecic_10_2018
+##Author:Sonja_Lecic_10_2018
 
 library(poolSeq)
 library(ggplot2)
