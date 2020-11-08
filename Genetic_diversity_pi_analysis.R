@@ -18,9 +18,9 @@ pi_resistants2 <- subset(pi_resistants, pi_resistants$BIN_START > 10000000 & pi_
 View(pi_susceptibles)
 
 
-matplot(pi_susceptibles2$BIN_START, pi_susceptibles2$PI, type = "l", col="grey60", xlim = c(11500000, 12500000), ylim=c(0.00001, 0.1),log= "y", lty = 1, xlab="3R chromosome", ylab= expression(paste(pi, " diversity")),  frame=FALSE, cex.lab=1.2)
-lines(pi_resistants2$BIN_START, pi_resistants2$PI, col="brown3")
-lines(pi_other_susceptibles2$BIN_START, pi_other_susceptibles2$PI, col="darkolivegreen3")
+matplot(pi_susceptibles2$BIN_START, pi_susceptibles2$PI, type = "l", col="orange", xlim = c(11500000, 12500000), ylim=c(0.00001, 0.1),log= "y", lty = 1, xlab="3R chromosome", ylab= expression(paste(pi, " diversity")),  frame=FALSE, cex.lab=1.2)
+lines(pi_resistants2$BIN_START, pi_resistants2$PI, col="red3")
+lines(pi_other_susceptibles2$BIN_START, pi_other_susceptibles2$PI, col="grey60")
 dev.off()
 
 # Add Ace gene
@@ -49,7 +49,7 @@ for (i in 1:nrow(gtf2)){
 
 text(expression(italic("Ace")), x = 11990000, y = 0.035)
 
-legend(x=12200000, y=0.0005, legend=c("Resistant haplotypes Ia", "Susceptible haplotypes: Ib", "Susceptible haplotypes: II"), col=c("brown3", "grey60", "darkolivegreen3"),lty=c(1,1,1), bty="n", cex=0.8)
+legend(x=12200000, y=0.0005, legend=c("Resistant haplotypes Ia", "Susceptible haplotypes: Ib", "Susceptible haplotypes: II"), col=c("red3", "orange", "grey60"),lty=c(1,1,1), bty="n", cex=0.8)
 
 # Add a legend
 legend("bottomleft", 
