@@ -1,6 +1,6 @@
 
 ## Nucleotide diversity pi analysis (sliding window)
-## Sonja_Lecic_08_2019
+##Author:Sonja_Lecic_08_2019
 
 
 setwd("/Volumes/Temp2/Haplotypes/Base_populations/VCF_analysis/splited_VCFs/")
@@ -49,7 +49,7 @@ for (i in 1:nrow(gtf2)){
 
 text(expression(italic("Ace")), x = 11990000, y = 0.035)
 
-legend(x=12200000, y=0.0005, legend=c("Resistant haplotypes", "Susceptible haplotypes: 4,14,16,69,73,75", "Susceptible haplotypes: 10,18,22,24,31,52,57"), col=c("brown3", "grey60", "darkolivegreen3"),lty=c(1,1,1), bty="n", cex=0.8)
+legend(x=12200000, y=0.0005, legend=c("Resistant haplotypes Ia", "Susceptible haplotypes: Ib", "Susceptible haplotypes: II"), col=c("brown3", "grey60", "darkolivegreen3"),lty=c(1,1,1), bty="n", cex=0.8)
 
 # Add a legend
 legend("bottomleft", 
