@@ -1,5 +1,7 @@
 #!/usr/bin/env Rscript
+
 ###Author:Sonja_Lecic_08_2018
+## This script converts VCF format to SYNC format
 
 require(sys)
 require(data.table)
