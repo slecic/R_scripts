@@ -6,7 +6,7 @@
 require(sys)
 require(data.table)
 
-vcffile="in.vcf"
+vcffile="input.vcf"
 syncfile="output.sync"
 
 cmd="bcftools"
