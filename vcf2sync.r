@@ -6,7 +6,7 @@
 require(sys)
 require(data.table)
 
-vcffile="08CallSNPsNovo/markers.vcf.gz"
+vcffile="in.vcf"
 syncfile="output.sync"
 
 cmd="bcftools"
