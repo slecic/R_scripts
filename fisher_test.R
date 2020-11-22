@@ -12,6 +12,7 @@ print(summary(as.numeric(Ultra100r2_FS10r1_fisher_testds$p.val)))
 hist(as.numeric(Ultra100r2_FS10r1_fisher_testds$p.val))
 Ultra100r2_FS10r1_fisher_testds$p.val <- as.numeric(Ultra100r2_FS10r1_fisher_testds$p.val)
 
+### Manhattan plot
 chromosomes <- c("2L", "2R", "3L", "3R", "X")
 chromosomes_length <- matrix(c(21106064, 18996374, 22263316, 26981190, 20637937), nrow = 1, dimnames = list(NULL, chromosomes))
 off <- 0
